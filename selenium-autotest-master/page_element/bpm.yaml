@@ -1,0 +1,71 @@
+# login
+用户: "id==userID"
+密码: "id==password"
+登录: "class==login-btn"
+
+# common
+BPM文档标题: "css==.document-title"
+需要选择审批结果: "id==approveResult"
+已选择审批结果: "css==div[id='approveResult'] label[class='btn btn-default btn-sm active']"
+第一个审批结果: "css==div[class='document-control'] label:nth-child(1)"
+审批说明: "id==approveNote"
+启动流程: "id==pie_startDoc"
+下一步: "id==pie_submitTask"
+修改下一处理人: "id==empSelector"
+修改审批链: "id==btnModifyReportChain"
+审批人数量: "id==pie-dlg-selected-count"
+删除审批人: "css==span[onclick='empDlg_removeUser(0);']"
+输入审批人: "id==pie-dlg-emp-keyword"
+搜索审批人: "id==pie-dlg-emp-btn-search"
+添加审批人: "css==button[onclick='empDlg_addButton();']"
+确定审批人: "id==dlg-select-user-ok"
+交办: "id==dlg-submit-ok"
+
+# common-营业部
+上传文件: "css==input[type='file']"
+上传文件确认: "id==extrafile-dlg-upload-ok"
+
+# 01节点-营业部
+经办人底稿未上传: "id==pie_uploadFile_0"
+
+# 03节点-营业部
+分公司复核底稿未上传: "id==pie_uploadFile_1"
+03修改06下一处理人: "css==div[id='gatewayUser_06'] span[class='input-group-addon']"
+03修改24下一处理人: "css==div[id='gatewayUser_24'] span[class='input-group-addon']"
+
+# 24节点-营业部
+需要后补材料: "css==input[value='1'][name='additionalFileFlag']"
+是否为关注类客户: "css==input[value='Y']"
+
+# 16节点-营业部
+创建盖章附件: "id==create-sealFile"
+客户待盖章附件转PDF: "id==create-customFile"
+合同草稿提交入口: "part_link_text==合同草稿"
+关闭跳转合同系统弹框: "css==.layui-layer-ico.layui-layer-close.layui-layer-close1"
+确定跳转合同系统弹框: "link_text==确定"
+合同系统提交: "id==btnSubmit"
+合同系统提交二次确认: "link_text==确定提交"
+
+# 90.01节点-营业部
+选择印章: "id==usableSealSelect"
+选择印章广发证券: "id==chenhaili"
+选择印章易阳方: "id==zhongyp"
+弹框确定: "link_text==确定"
+打开盖章窗口: "id==sealRecordBtn"
+生成盖章份数: "xpath==//button[contains(text(),'一键同步盖章份数')]"
+确认盖章: "id==sealedReviewModal-sure"
+选择请求方式: "id==requestType"
+选择请求方式已授权: "css==option[value='已授权']"
+
+# 18节点-营业部
+拟稿人上传盖章材料: "id==pie_uploadFile_"
+
+# 23节点-营业部
+交易对手同步产品名: "xpath==//body[1]/div[3]/div[4]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/table[1]/tbody[1]/tr["
+同步交易对手台账: "id==syncFromAdmittanceClient"
+同步完成确认: "css==div[class='jconfirm-buttons'] button[type='button']"
+同步交易对手结果: "css==.jconfirm-content"
+确定归档: "css==div[class='jconfirm jconfirm-light'] button:nth-child(1)"
+
+# 01节点-柜台
+盖章附件转PDF: "id==createSealFile"
